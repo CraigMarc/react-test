@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-/*
+
 describe('something truthy and falsy', () => {
   it('true to be true', () => {
     expect(true).toBe(true);
@@ -8,10 +8,10 @@ describe('something truthy and falsy', () => {
   it('false to be false', () => {
     expect(false).toBe(false);
   });
-});*/
+});
 
 import { render, screen } from "@testing-library/react";
-import App from "./App";
+import App from "./src/App";
 
 describe("App component", () => {
   it("renders correct heading", () => {
